@@ -2,7 +2,7 @@
 /* Multirate - Multitasking case main file */
 #define _DEFAULT_SOURCE                                            /* For usleep() */
 #define _POSIX_C_SOURCE                200112L                   /* For clock_gettime() & clock_nanosleep() */
-#include <stdio.h>                     /* This ert_main.c example uses printf/fflush */
+#include <stdio.h>                     /* This main.c example uses printf/fflush */
 #include <inttypes.h> 
 #include <pthread.h>                   /* Thread library header file */
 #include <sched.h>                     /* OS scheduler header file */
